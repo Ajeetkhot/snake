@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+.container{
+    background-color: rgb(243, 185, 97);
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    background-color: rgb(45, 44, 44);
+    height: 90%;
+    width: 42%;
+    display: grid;
+    grid-template-rows: repeat(20 , 1fr);
+    grid-template-columns: repeat(20 , 1fr);
+}
+
+.head{
+    background-color:red ;
+    border-radius: 10px;
+}
+
+.snake{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.food{
+    background-color:blue ;
+    border-radius: 50%;
+}
